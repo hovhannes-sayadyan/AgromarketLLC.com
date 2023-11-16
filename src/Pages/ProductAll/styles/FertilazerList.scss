@@ -1,0 +1,13 @@
+.FertilazerTitle{
+    text-align: center;
+    color: rgba(116,137,12,255);
+    font-size: 40px;
+}
+
+.FertilazersDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}

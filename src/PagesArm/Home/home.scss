@@ -1,0 +1,94 @@
+.All{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.Carusel{
+    width: 100%;
+    height:83vh;
+    display: flex;
+    align-items: center;
+    padding-top:220px;
+}
+
+.CaruselImg{
+    width: 100%;
+    height: 83vh;
+
+}
+
+.SearchDiv{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SearchInput{
+    width: 400px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+.SearchButton{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    position: absolute;
+    top: 62.5%;
+    left: 395px;
+}
+
+.TitleH1{
+    color: white;
+}
+
+
+@media (max-width:1350px) {   
+    .All{
+        height: 90vh;
+    }
+}
+
+@media (max-width:1060px) {   
+    .All{
+        height: 80vh;
+    }
+}
+
+@media (max-width:805px) {   
+    .All{
+        height: 75vh;
+    }
+}
+
+@media (max-width:590px) {
+    .All{
+        width: 100vw;
+    }
+   .TitleH1{
+    width: 90%;
+   }
+}
+
+@media (max-width:540px) {
+    .TitleH1{
+      position: relative;
+      left: 30px;
+    }
+}
+
+@media (max-width:400px) {
+    .All{
+        height: 80%;
+    }
+    .SearchInput{
+        width: 80%;
+    }
+}

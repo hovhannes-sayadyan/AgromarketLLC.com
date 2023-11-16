@@ -1,0 +1,47 @@
+.PesticideTitle{
+    text-align:center;
+    font-size: 60px;
+    color: rgb(255, 73, 41);
+}
+
+.FungicdTitle{
+    text-align:center;
+    font-size: 50px;
+    color: rgba(82,162,19,255);
+}
+
+.Fungicides{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.HerbecidTitle{
+    text-align:center;
+    font-size: 50px;
+    color: #c38e24;
+}
+
+.Herbecides{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.InsecticidTitle{
+    text-align:center;
+    font-size: 50px;
+    color: #fc6666;
+}
+
+.Insecticides{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}

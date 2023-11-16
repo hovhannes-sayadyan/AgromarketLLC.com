@@ -1,0 +1,38 @@
+.HerbecidCard{
+    width: 310px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #db9e1a;
+    background-image: url(../../../../public/Assets/FERTILAZERS/mol75.jpg);
+    border-radius: 20px;
+}
+
+.HerbecidCard img{
+    width: 250px;
+    height: 350px;
+}
+
+.HerbecidCard h3{
+    color: white;
+}
+
+.HerbecidCard p{
+    width: 100%;
+    color: white;
+    font-weight: 400;
+}
+
+.AboutPProduct{
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+
+.CountryP{
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+}

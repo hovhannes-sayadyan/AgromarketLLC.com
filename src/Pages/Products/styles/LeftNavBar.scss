@@ -1,0 +1,53 @@
+.LeftNavBar{
+    width: 70px;
+    height: 100vh;
+    background-color: rgba(82,162,19,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+.LeftNavBar:hover{
+    width: 220px;
+    transition: all .5s;
+}
+
+.Icons{
+    width: 60px;
+}
+
+.H1Close{
+    display: none; 
+}
+
+.H1Open {
+    display: block;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em; 
+    animation: 
+    typing 2s steps(100, end),
+    blink-caret .75s step-end infinite;
+}
+  
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+
+@media (max-width:650px) {
+    .LeftNavBar{
+        display: none;
+    }
+}

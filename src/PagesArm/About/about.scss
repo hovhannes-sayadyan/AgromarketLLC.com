@@ -1,0 +1,50 @@
+.AboutImgDiv{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../public/Assets/agro.jpg);
+    background-size: cover;
+}
+
+.AboutDiv{
+    width: 65%;
+    height: 65vh;
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AboutTitle{
+    color: white;
+}
+
+.AboutP{
+    width: 50%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-shadow: 4px 4px 4px green;
+}
+
+@media (max-width:800px) {
+    .AboutP{
+        width: 80%;
+    }
+}
+
+@media (max-width:490px) {
+    .AboutDiv{
+        width: 80%;
+    }
+    .AboutP{
+        width: 100%;
+        font-size: 15px;
+    }
+}
