@@ -15,6 +15,10 @@
   overflow: hidden;
 }
 
+.price{
+  text-align: center;
+}
+
 .card::before {
   content: "";
   position: absolute;

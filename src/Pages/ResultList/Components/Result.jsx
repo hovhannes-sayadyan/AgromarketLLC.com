@@ -11,7 +11,7 @@ function Result({img,name,number}) {
 
   <div className="contentBox">
     <h3>{name}</h3>
-    <h2 className="price">We have about {number} kind of {name}</h2>
+    <h2 className="price">{number} {name}</h2>
   </div>
 
 </div>
